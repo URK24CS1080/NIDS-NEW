@@ -1,0 +1,56 @@
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment variables
+.env
+.env.*
+
+# Raw dataset
+data/raw/
+
+# Processed/generated data
+data/processed/*.csv
+
+# Trained models
+models/**/*.joblib
+models/**/*.pkl
+models/**/*.pickle
+
+# Experiment outputs
+experiments/results/*
+experiments/logs/*
+
+# Generated reports
+reports/figures/*
+reports/model_results/*
+
+# Streamlit
+.streamlit/
+
+# MLflow
+mlruns/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
